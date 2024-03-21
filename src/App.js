@@ -7,7 +7,6 @@ import OurTeam from "./Pages/OurTeam";
 import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Gallary from "./Pages/Gallary";
-import Graphic from "./Pages/Graphic";
 import PriceList from "./Pages/PriceList";
 
 const App = () => {
@@ -20,7 +19,6 @@ const App = () => {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/About" element={<About />} />
         <Route path="/Gallary" element={<Gallary />} />
-        <Route path="/Graphic" element={<Graphic />} />
         <Route path="/PriceList" element={<PriceList />} />
       </Routes>
       <Footer />

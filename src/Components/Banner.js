@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="relative top-0">
         <img
           src="/background.png"
-          className="w-full h-[55vh] object-cover rounded-lg   "
+          className="h-full w-auto  md:w-full md:h-[55vh] object-cover rounded-lg   "
           alt="banner pic"
         />
 

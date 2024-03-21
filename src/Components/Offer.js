@@ -4,17 +4,17 @@ const Offer = () => {
   return (
     <div>
       <section className="text-gray-600 body-font mt-40 mb-32">
-        <div className="container px-5 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
+        <div className="container px-5 mx-auto bg-red-800">
+          <div className="hidden md:flex flex-wrap  m-auto  mb-20 bg-green-700 ">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                 OUR OFFER
               </h1>
               <div className="h-1 w-40 bg-indigo-500 rounded" />
             </div>
-            <div className="relative flex justify-around items-center  ">
-              <div className='absolute bg-cyan-400 w-44 h-44 bottom-10 left-[25em] rounded-full shadow-xl shadow-gray-200'></div>
-              <div className="absolute bg-gray-200 w-[45em] h-44  rounded-xl shadow-xl ml-72 shadow-cyan-500/50 flex p-20 items-center">
+            <div className="relative flex justify-around items-center ">
+              <div className=' hidden sm:block absolute bg-cyan-400 w-44 h-44 bottom-10 left-[25em] rounded-full shadow-xl shadow-gray-200'></div>
+              <div className=" hidden absolute  bg-gray-200  sm:w-[45em] sm:h-44  rounded-xl shadow-xl sm:ml-72 shadow-cyan-500/50 sm:flex p-20 items-center">
                 <p className="w-full leading-relaxed text-[#2e94ff] font-bold z-30 ">
                   Get up to 30% off fixed term memberships or 10% off your first
                   6 months on monthly memberships - all with free multi-gym
@@ -23,6 +23,9 @@ const Offer = () => {
               </div>
             </div>
           </div>
+
+
+
           <div className="flex flex-wrap -m-4 mt-32">
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">

@@ -11,7 +11,7 @@ const Home = () => {
       <Banner />
       <Popular/>
       <Offer/>
-      <hr  className='h-0.5 bg-blue-400 w-[60em] m-auto'/>
+      <hr  className='h-0.5 bg-blue-400 w-[70%] m-auto'/>
       <Review/>
     
     </div>
