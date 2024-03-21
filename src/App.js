@@ -11,7 +11,7 @@ import PriceList from "./Pages/PriceList";
 
 const App = () => {
   return (
-    <>
+    <div className="w-full">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/PriceList" element={<PriceList />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 };
 
