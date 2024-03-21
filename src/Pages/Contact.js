@@ -98,11 +98,11 @@ const Contact = () => {
           </button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-          <NavLink className="text-indigo-500">fitnesszone@mybody.com</NavLink>
+          <NavLink className="text-indigo-500">hit98987@gmail.com</NavLink>
           <p className="leading-normal my-5">
-          14,shreeji complex,.
+          Toronto, Ontario.
             <br />
-            surat.
+            Canada.
           </p>
           <span className="inline-flex">
             <NavLink className="text-gray-500">
