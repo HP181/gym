@@ -77,7 +77,7 @@ const Pricelist = () => {
             Access to the gym, women's zone, help from a trainer
           </p>
           <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-            Button
+            Submit
             <svg
               fill="none"
               stroke="currentColor"
@@ -104,7 +104,7 @@ const Pricelist = () => {
             PRO
           </h2>
           <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-            <span>pln-38</span>
+            <span>CAD-38</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
           </h1>
           <p className="flex items-center text-gray-600 mb-2">
@@ -172,7 +172,7 @@ const Pricelist = () => {
            Help of a personal trainer
           </p>
           <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">
-            Button
+            Submit
             <svg
               fill="none"
               stroke="currentColor"
@@ -196,7 +196,7 @@ const Pricelist = () => {
             SILVER
           </h2>
           <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-            <span>pln-56</span>
+            <span>CAD-56</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
           </h1>
           <p className="flex items-center text-gray-600 mb-2">
@@ -280,7 +280,7 @@ const Pricelist = () => {
            Help of a personal trainer
           </p>
           <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-            Button
+            Submit
             <svg
               fill="none"
               stroke="currentColor"
@@ -304,7 +304,7 @@ const Pricelist = () => {
             SPECIAL
           </h2>
           <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-            <span>pln-72</span>
+            <span>CAD-72</span>
             <span className="text-lg ml-1 font-normal text-gray-500">/mo</span>
           </h1>
           <p className="flex items-center text-gray-600 mb-2">
@@ -388,7 +388,7 @@ const Pricelist = () => {
            Help of a personal trainer
           </p>
           <button className="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-            Button
+            Submit
             <svg
               fill="none"
               stroke="currentColor"

@@ -4,8 +4,8 @@ const Offer = () => {
   return (
     <div>
       <section className="text-gray-600 body-font mt-40 mb-32">
-        <div className="container px-5 mx-auto bg-red-800">
-          <div className="hidden md:flex flex-wrap  m-auto  mb-20 bg-green-700 ">
+        <div className="container px-5 mx-auto ">
+          {/* <div className="hidden md:flex flex-wrap  m-auto  mb-20 bg-green-700 ">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
                 OUR OFFER
@@ -22,12 +22,17 @@ const Offer = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
+<h1 className="sm:text-3xl text-2xl font-medium title-font text-center text-gray-900">
+                OUR OFFER
+              </h1>
 
-
-          <div className="flex flex-wrap -m-4 mt-32">
+          <div className="flex flex-wrap -m-4 mt-20 ">
             <div className="xl:w-1/4 md:w-1/2 p-4">
+
+
+       
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-40 rounded w-full object-cover object-center mb-6"

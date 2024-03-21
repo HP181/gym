@@ -74,13 +74,13 @@ const Footer = () => {
         </h2>
         <nav className="list-none mb-10">
           <li>
-            <NavLink className="text-gray-600 hover:text-gray-800 font-semibold">14,shreeji complex,surat.</NavLink>
+            <NavLink className="text-gray-600 hover:text-gray-800 font-semibold">Toronto, Ontario.</NavLink>
           </li>
           <li>
-            <NavLink className="text-gray-600 hover:text-gray-800 font-semibold">fitnesszone@mybody.com</NavLink>
+            <NavLink className="text-gray-600 hover:text-gray-800 font-semibold">hit98987@gmail.com</NavLink>
           </li>
           <li>
-            <NavLink className="text-gray-600 hover:text-gray-800 font-semibold">+91 5252552525</NavLink>
+            <NavLink className="text-gray-600 hover:text-gray-800 font-semibold">+1 123 456 7890</NavLink>
           </li>
         
         </nav>

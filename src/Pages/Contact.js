@@ -1,7 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: ''
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setFormData({
+     name : "",
+     email : "",
+     message : ""
+    });
+  }
+
+  const { name, email, message } = formData;
+
   return (
     <div>
         <section className="text-gray-600 body-font relative">
@@ -15,7 +41,7 @@ const Contact = () => {
       </p>
     </div>
     <div className="lg:w-1/2 md:w-2/3 mx-auto">
-      <div className="flex flex-wrap -m-2">
+      <form onSubmit={handleSubmit} className="flex flex-wrap -m-2">
         <div className="p-2 w-1/2">
           <div className="relative">
             <label htmlFor="name" className="leading-7 text-sm text-gray-600">
@@ -25,6 +51,9 @@ const Contact = () => {
               type="text"
               id="name"
               name="name"
+              onChange={handleInputChange}
+              value={name}
+              required
               className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -38,6 +67,9 @@ const Contact = () => {
               type="email"
               id="email"
               name="email"
+              onChange={handleInputChange}
+              value={email}
+              required
               className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
@@ -53,14 +85,16 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
+              onChange={handleInputChange}
+              value={message}
+              required
               className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              defaultValue={""}
             />
           </div>
         </div>
         <div className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Button
+          <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onClick={handleSubmit}>
+            Submit
           </button>
         </div>
         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
@@ -123,7 +157,7 @@ const Contact = () => {
             </NavLink>
           </span>
         </div>
-      </div>
+      </form>
     </div>
   </div>
 </section>
